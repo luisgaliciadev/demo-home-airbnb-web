@@ -5,7 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { NavBarScrollComponent } from './nav-bar-scroll/nav-bar-scroll.component';
-
+import { NavBarResComponent } from './nav-bar-res/nav-bar-res.component';
 
 
 @NgModule({
@@ -14,7 +14,8 @@ import { NavBarScrollComponent } from './nav-bar-scroll/nav-bar-scroll.component
     HeaderComponent,
     NavBarComponent,
     SearchBarComponent,
-    NavBarScrollComponent
+    NavBarScrollComponent,
+    NavBarResComponent
   ],
   imports: [
     CommonModule
@@ -23,7 +24,8 @@ import { NavBarScrollComponent } from './nav-bar-scroll/nav-bar-scroll.component
     FooterComponent,
     HeaderComponent,
     NavBarComponent,
-    NavBarScrollComponent
+    NavBarScrollComponent,
+    NavBarResComponent
   ],
 })
 export class SharedModule { }

@@ -24,12 +24,15 @@
     function scrollFunction() {
       var element = document.getElementById("top-nav-bar");
       var elementScroll = document.getElementById("top-nav-bar-scroll");
+      var elementScrollRes = document.getElementById("top-nav-bar-scroll-res");
       if (document.body.scrollTop >= 1 || document.documentElement.scrollTop > 20) {
         element.classList.add("scrolled-bar");
         elementScroll.classList.remove("scrolled-bar");
+        elementScrollRes.classList.add("bg-white");
       } else {
         element.classList.remove("scrolled-bar");
         elementScroll.classList.add("scrolled-bar");
+        elementScrollRes.classList.remove("bg-white");
       }
     };
   </script>

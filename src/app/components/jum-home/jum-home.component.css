@@ -11,10 +11,17 @@
     margin-bottom: 100px;
 }
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
     .info-home-1 {
         position: absolute; 
         margin-top: 300px;
+    }
+}
+
+@media (min-width: 396px) {
+    .info-home-1 {
+        position: absolute; 
+        margin-top: 200px;
     }
 }
 

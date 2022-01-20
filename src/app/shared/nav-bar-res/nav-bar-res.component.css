@@ -1,0 +1,30 @@
+.bar-top {
+    height: 80px;
+}
+
+.search-bar {
+    width: 300px;
+    height: 45px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.button-search {
+    height: 60px;
+    width: 180px;
+    padding-bottom: 25px;
+}
+
+.search {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.icon-button {
+   float: left; 
+   margin-left: 70px;
+   margin-top: 5px;
+   margin-right: 10px
+}

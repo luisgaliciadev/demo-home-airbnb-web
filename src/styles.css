@@ -28,6 +28,12 @@ body {
     }
 }
 
+@media handheld, only screen and (min-width: 700px) {
+    .nav-bar-top-res {
+        display:none;
+    }
+}
+
 .pointer{
     cursor: pointer;
 }
@@ -35,19 +41,19 @@ body {
 .jumbotron {
     padding-top:50px;
     padding-bottom:50px;
-  }
+}
   
-  .jumbotron .container {
-    position:relative;
-    z-index:2;
-  }
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
   
-  @media screen and (max-width: 768px) {
-    .jumbotron {
-      padding-top:20px;
-      padding-bottom:20px;
-    }
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
   }
+}
 
 .navbar .flex-1 {
     flex: 1;
