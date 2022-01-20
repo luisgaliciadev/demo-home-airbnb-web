@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     height: 100%;
-    background: linear-gradient( #000000 40%, #FFFFFF 50%);
+    /* background: linear-gradient( #000000 35%, #FFFFFF 65%); */
+    background: linear-gradient(#000000 30%, #FFFFFF 20%, #FFFFFF 50%);
 }
 
 .container-main {
