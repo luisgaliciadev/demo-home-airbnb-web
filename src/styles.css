@@ -5,10 +5,25 @@ body {
     background: linear-gradient(#000000 30%, #FFFFFF 20%, #FFFFFF 50%);
 }
 
-.container-main {
-   padding-left: 80px; 
-   padding-right: 80px; 
-   padding-top: 15px;
+
+@media  (min-width: 768px) {
+    .container-main {
+        padding-left: 80px; 
+        padding-right: 80px; 
+        padding-top: 15px;
+     }
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    .container-search {
+        display:none;
+    }
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    .nav-bar-top {
+        display:none;
+    }
 }
 
 .pointer{
