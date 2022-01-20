@@ -11,9 +11,11 @@
     margin-bottom: 100px;
 }
 
-.info-home-1 {
-    position: absolute; 
-    margin-top: 300px;
+@media  (min-width: 768px) {
+    .info-home-1 {
+        position: absolute; 
+        margin-top: 300px;
+    }
 }
 
 .text-btn-search {

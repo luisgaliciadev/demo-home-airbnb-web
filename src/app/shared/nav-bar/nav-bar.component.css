@@ -3,12 +3,3 @@
     height: 80px;
 }
 
-.modal-navbar {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin-top: 310px;
-    margin-left: 1240px;
-    float: right;
-}

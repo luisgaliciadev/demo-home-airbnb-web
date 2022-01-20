@@ -17,5 +17,21 @@
 </head>
 <body>
   <app-root></app-root>
+  <script>
+    window.onscroll = function() {
+      scrollFunction()
+    };
+    function scrollFunction() {
+      var element = document.getElementById("top-nav-bar");
+      var elementScroll = document.getElementById("top-nav-bar-scroll");
+      if (document.body.scrollTop >= 1 || document.documentElement.scrollTop > 20) {
+        element.classList.add("scrolled-bar");
+        elementScroll.classList.remove("scrolled-bar");
+      } else {
+        element.classList.remove("scrolled-bar");
+        elementScroll.classList.add("scrolled-bar");
+      }
+    };
+  </script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+.bar-top {
+    background: #FFFFFF;
+    height: 80px;
+}
+
+.color-border-btn {
+    border: solid 1px #CCCCCC
+}
+
+.search-bar {
+    width: 300px;
+    height: 45px;
+    background: white;
+    padding: 0px;
+    border: solid 1px #CCCCCC
+}
+
+.button-search {
+    height: 60px;
+    width: 180px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.search {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 255px;
+}
+
+.icon-button {
+   float: left; 
+   margin-left: -2px;
+}

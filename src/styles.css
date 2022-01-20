@@ -1,10 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     height: 100%;
-    /* background: linear-gradient( #000000 35%, #FFFFFF 65%); */
     background: linear-gradient(#000000 30%, #FFFFFF 20%, #FFFFFF 50%);
 }
 
+.scrolled-bar {
+    display: none;
+}
 
 @media  (min-width: 768px) {
     .container-main {
