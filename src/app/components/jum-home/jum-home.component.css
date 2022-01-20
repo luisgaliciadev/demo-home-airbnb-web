@@ -1,0 +1,17 @@
+.jumbotron-home {
+    margin-bottom: 0px;
+    background: #000 url("https://img.blogs.es/anexom/wp-content/uploads/2018/07/campamento-verano.jpg") top center no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    z-index:1;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.info-home-1 {
+    position: absolute; 
+    margin-top: 300px;
+}

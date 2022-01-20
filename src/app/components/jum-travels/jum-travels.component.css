@@ -1,0 +1,14 @@
+.cards-travel {
+    border-radius: 10px !important;
+    height: 350px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body-travels {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

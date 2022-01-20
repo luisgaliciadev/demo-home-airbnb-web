@@ -1,0 +1,17 @@
+<div class="jumbotron m-b-100">
+    <h1 class="display-5">Inspiración para tu próximo viaje</h1>
+    <br>
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let travel of travels">
+            <div class="card cards-travel">
+                <img class="card-img-top" src="{{travel.img}}">
+                <div class="card-body card-body-travels" [style]="'background:' + travel.colorBackground">
+                    <h5 class="card-title text-white font-weight-bold">{{travel.title}}</h5>
+                    <p class="card-text text-white">
+                        {{travel.description}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

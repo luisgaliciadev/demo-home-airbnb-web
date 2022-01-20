@@ -1,0 +1,159 @@
+
+
+<footer class="footer container-fluid">
+    <div class="futureTravels">
+            <h3>Inspiración para futuras escapadas</h3>
+            <ul class="nav">
+                <li class="nav-item" *ngFor="let futureTravel of futureTravels">
+                <a class="nav-link active text-dark font-weight-bold" href="#">{{futureTravel}}</a>
+                </li>
+            </ul>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Albarracín</div>
+                        <div>Aragón</div>
+                        </li>
+                    </ul>
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Añón de Moncayo</div>
+                        <div>Aragon</div>
+                        </li>
+                    </ul>
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Burgos</div>
+                        <div>Castilla y León</div>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-sm-3">
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Almagro</div>
+                        <div>Castilla-La Mancha</div>
+                        </li>
+                    </ul>
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Badajoz</div>
+                        <div>Extremadura</div>
+                        </li>
+                    </ul>
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Cabárceno</div>
+                        <div>Cantabria Region</div>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-sm-3">
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Almería</div>
+                        <div>Andalucía</div>
+                        </li>
+                    </ul>
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Benamahoma</div>
+                        <div>Andalucía</div>
+                        </li>
+                    </ul>
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Cambrils</div>
+                        <div>Cataluña</div>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-sm-3">
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Altafulla</div>
+                        <div>Cataluña</div>
+                        </li>
+                    </ul>
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div>Bilbao</div>
+                        <div>País Vasco</div>
+                        </li>
+                    </ul>
+                    <ul class="m-b-20">
+                        <li class="item-list pointer">
+                        <div class="font-weight-bold"><u>Mostrar Mas</u></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <br>
+    <div class="row">
+            <div class="col-sm-3">
+                <label class="font-weight-bold">Asistencia</label>
+                <ul *ngFor="let assistance of assistances">
+                    <li class="item-list pointer">{{assistance}}</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <label class="font-weight-bold">Comunidad</label>
+                <ul *ngFor="let community of communitys">
+                    <li class="item-list pointer">{{community}}</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <label class="font-weight-bold">Cómo ser anfitrión</label>
+                <ul *ngFor="let host of hosts">
+                    <li class="item-list pointer">{{host}}</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <label class="font-weight-bold">Acerca de</label>
+                <ul *ngFor="let about of abouts">
+                    <li class="item-list pointer">{{about}}</li>
+                </ul>
+            </div>
+    </div>
+    <hr>
+    <nav class="navbar navbar-expand-lg">
+            <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
+                <li class="nav-item"><a class="nav-link text-dark" href="#">© {{year}} Airbnb, Inc.</a></li>
+                <li class="nav-item"><a class="nav-link text-dark">·</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" target="_blank" href="https://www.airbnb.es/help/article/2855/pol%C3%ADtica-de-privacidad">Privacidad</a></li>
+                <li class="nav-item"><a class="nav-link text-dark">·</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" target="_blank" href="https://www.airbnb.es/help/article/2908/t%C3%A9rminos-de-servicio">Condiciones</a></li>
+                <li class="nav-item"><a class="nav-link text-dark">·</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" target="_blank" href="https://www.airbnb.es/sitemaps/v2">Mapa del sitio</a></li>
+                <li class="nav-item"><a class="nav-link text-dark">·</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" target="_blank" href="https://www.airbnb.es/about/company-details">Datos de la empresa</a></li>
+            </ul>
+            <div class="ml-auto navbar-collapse collapse nav-content order-2 order-md-3">
+                <ul class="ml-auto nav navbar-nav">
+                    <li class="m-r-10">
+                        <i class="mdi mdi mdi-web f-z-20 pointer"></i>
+                        <label class="pointer"><u>Español (ES)</u></label>
+                    </li>
+                    <li class="pointer m-r-30">
+                        <i class="mdi mdi-currency-eur f-z-20 pointer"></i>
+                        <label class="pointer"><u>EUR</u></label>
+                    </li>
+                    <li class="pointer m-r-10">
+                        <i class="mdi mdi-facebook f-z-25 pointer"></i>
+                    </li>
+                    <li class="pointer m-r-10">
+                        <i class="mdi mdi-twitter f-z-25 pointer"></i>
+                    </li>
+                    <li class="pointer">
+                        <i class="mdi mdi-instagram f-z-25 pointer"></i>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+</footer>

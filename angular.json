@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "6cd4a8b2-4e53-4e17-b639-190d9328d82c"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -74,7 +77,10 @@
               "browserTarget": "airbnb:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "disableHostCheck": true
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",

@@ -1,0 +1,16 @@
+.jumbotron-card {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    z-index:1;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.cards {
+    border: 0px;
+    background-color: transparent;
+}

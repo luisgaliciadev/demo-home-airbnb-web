@@ -1,0 +1,25 @@
+.cards-experiences {
+    border-radius: 10px !important;
+    height: 600px;
+}
+
+.cards-body-experiences {
+    position: absolute; 
+    z-index: 999;
+}
+
+.text-cards-experiences {
+    margin-top: 50px;
+    width: 280px;
+    margin-left: 50px;
+}
+
+.img-experiences {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    z-index:1;
+    border-radius: 10px;
+}

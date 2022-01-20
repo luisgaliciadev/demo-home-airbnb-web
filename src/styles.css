@@ -1,1 +1,99 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    height: 100%;
+    background: linear-gradient( #000000 40%, #FFFFFF 50%);
+}
+
+.container-main {
+   padding-left: 80px; 
+   padding-right: 80px; 
+   padding-top: 15px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.jumbotron {
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  
+  .jumbotron .container {
+    position:relative;
+    z-index:2;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .jumbotron {
+      padding-top:20px;
+      padding-bottom:20px;
+    }
+  }
+
+.navbar .flex-1 {
+    flex: 1;
+    flex-basis: 100%;
+}
+
+.btn-rounded {
+    border-radius: 100px;
+}
+
+.b-w-0 {
+    border: 0px;
+}
+
+.m-r-10 {
+    margin-right: 10px;
+}
+
+.m-r-30 {
+    margin-right: 30px;
+}
+
+.f-z-12 {
+    font-size: 12px;
+}
+
+.f-z-20 {
+    font-size: 20px;
+}
+
+.f-z-25 {
+    font-size: 25px;
+}
+
+.f-z-30 {
+    font-size: 30px;
+}
+
+.m-t-55 {
+    margin-top: 55px;
+}
+
+.m-l-50 {
+    margin-left: 50px;
+}
+
+.m-t-150 {
+    margin-top: 150px;
+}
+
+.item-list {
+    list-style:none;
+    margin-bottom: 10px;    
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-b-100 {
+    margin-bottom: 100px
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}

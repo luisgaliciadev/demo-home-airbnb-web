@@ -1,0 +1,17 @@
+.jumbotron-questions {
+    margin-bottom: 0px;
+    background: #000 url("https://www.clarin.com/img/2020/02/04/el-hotel-de-campo-el___U7b64oac_600x338__1.jpg") top center no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    z-index:1;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.info-home-2 {
+    position: absolute;
+    width: 450px;
+}
